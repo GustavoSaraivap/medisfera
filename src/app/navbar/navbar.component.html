@@ -1,0 +1,49 @@
+<mat-toolbar color="primary" class="nav-toolbar">
+  <mat-toolbar-row>
+    <a routerLink="">
+      <img src="assets/logo.png" class="nav-logo" />
+    </a>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-nav-list class="nav-list">
+  <a class="link-items" mat-list-item routerLink="/dashboard" routerLinkActive="active">
+    <div class="elements-nav">
+      <div class="div-icon">
+        <mat-icon class="nav-icon" matListIcon>home</mat-icon>
+      </div>
+      <div class="div-text">
+        <span class="nav-text">Dashboard</span>
+      </div>
+      <div class="div-arrow">
+        <mat-icon class="arrow-icon">expand_more</mat-icon>
+      </div>
+    </div>
+  </a>
+  <a class="link-items" mat-list-item routerLink="/patients" routerLinkActive="active">
+    <div class="elements-nav">
+      <div class="div-icon">
+        <mat-icon class="nav-icon" matListIcon>people</mat-icon>
+      </div>
+      <div class="div-text">
+        <span class="nav-text">Pacientes</span>
+      </div>
+      <div class="div-arrow">
+        <mat-icon class="arrow-icon">expand_more</mat-icon>
+      </div>
+    </div>
+  </a>
+  <a class="link-items" mat-list-item routerLink="/reports" routerLinkActive="active">
+    <div class="elements-nav">
+      <div class="div-icon">
+        <mat-icon class="nav-icon" matListIcon>bar_chart</mat-icon>
+      </div>
+      <div class="div-text">
+        <span class="nav-text">Relatórios</span>
+      </div>
+      <div class="div-arrow">
+        <mat-icon class="arrow-icon">expand_more</mat-icon>
+      </div>
+    </div>
+  </a>
+</mat-nav-list>

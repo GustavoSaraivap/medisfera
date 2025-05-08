@@ -1,0 +1,12 @@
+<mat-sidenav-container class="main-container mat-elevation-z5">
+  <mat-sidenav mode="side" opened class="navbar-sidenav">
+    <app-navbar></app-navbar>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <app-header></app-header>
+    <div class="content">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

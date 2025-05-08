@@ -1,0 +1,9 @@
+.main-container {
+  height: 100vh;      /* ocupa toda a altura da janela */
+  width: 260px;
+}
+.content {
+  padding: 24px;
+  overflow-y: auto;
+  height: calc(100% - 64px); /* subtrai altura do header se necessário */
+}
